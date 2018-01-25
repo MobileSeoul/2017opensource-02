@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/laytest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/SelectPageRistRow2ImageView1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/SelectPageRistRow2TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dip"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#a0000000"
+        android:textSize="35dip" />
+</LinearLayout>

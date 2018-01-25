@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/FestivalWebView"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ExpandableListView
+        android:id="@+id/FestivalActivityExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:divider="#00000000"
+        android:groupIndicator="@null"></ExpandableListView>
+
+</RelativeLayout>
